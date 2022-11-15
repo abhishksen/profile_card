@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+body {
+  background: #eee;
+}
+
+.container {
+  background: #fff;
+  width: 300px;
+  overflow: hidden;
+  padding: 1.5rem;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-top: 5rem;
+  margin-left: 27rem;
+  transition: 0.5s all;
+}
+
+.container:hover {
+  box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.container img {
+  height: 100px;
+  width: 100px;
+  margin-top: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container h3 {
+  font-size: 2rem;
+  color: #222;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.container p {
+  font-size: 1.3rem;
+  color: #666;
+  padding-bottom: 1rem;
+}
+
+.container .social {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1.6rem;
+}
+
+.container .social span i {
+  font-size: 2.3rem;
+  color: #666;
+  padding: 0 0.6rem;
+  cursor: pointer;
+}
+
+.container .social span:hover i.fa-facebook {
+  color: #2200ff;
+}
+
+.container .social span:hover i.fa-instagram {
+  color: #ff0055;
+}
+
+.container .social span:hover i.fa-twitter {
+  color: #1796ff;
+}
+
+.container .social span:hover i.fa-linkedin {
+  color: #1364d4;
+}
